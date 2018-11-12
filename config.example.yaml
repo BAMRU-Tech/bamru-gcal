@@ -1,0 +1,5 @@
+bamru_server: 'https://staging.bamru.info/api'
+bamru_session_id: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+calendar_id: 'josiah.bamru.test@gmail.com'
+google_credentials_file: 'credentials.json'
+google_token_file: 'token.json'

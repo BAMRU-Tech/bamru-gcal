@@ -106,7 +106,7 @@ def main(bamru_server, bamru_session_id, calendar_id, google_credentials_file, g
     publisher.publish(calendar_id)
 
 if __name__ == "__main__":
-    config_file = sys.argv[1]
+    config_file = sys.argv.pop(1)
     with open(config_file) as f:
         config = yaml.safe_load(f)
     main(**config)
